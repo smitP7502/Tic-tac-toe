@@ -1,0 +1,63 @@
+#box {
+    /* background: blue; */
+    height: 100px;
+    width: 100px;
+    border: 1px solid red;
+}
+
+#box:hover {
+    /* background: red; */
+    cursor: pointer;
+}
+
+.container {
+    height: 300px;
+    width: 300px;
+    /* border: 1px solid red; */
+}
+
+.rect {
+    height: 100px;
+    width: 300px;
+    /* border: 1px solid black; */
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box:hover {
+    cursor: pointer;
+}
+
+#reset{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+#cross{
+    margin: 10px 10px;
+    border: 2px solid black;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#cross:hover{
+    cursor: pointer;
+}
+
+#dot{
+    border: 2px solid black;
+    margin: 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#dot:hover{
+    cursor: pointer;
+}
