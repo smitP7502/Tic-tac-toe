@@ -198,8 +198,8 @@ let fun = () => {
 
 // choise for the sign
 // let choise = prompt("Enter the choise : (cross, dot) ");
-let playerSign = null;
-let computerSign = null;
+let playerSign = "./dot.png";
+let computerSign = "./cross.png";
 // if (choise === "cross") {
 //     playerSign = "./cross.png";
 //     computerSign = "./dot.png";
